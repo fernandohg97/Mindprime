@@ -13,7 +13,7 @@ con la máquina virtual de Java instalada
 
 
 Como crear un primaryStage?
-...
+
 public class MindPrime extends Application {
     Stage window;
     @Override
