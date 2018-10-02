@@ -13,6 +13,7 @@ con la máquina virtual de Java instalada
 
 
 Como crear un primaryStage?
+...
 
 public class MindPrime extends Application {
     Stage window;
@@ -26,7 +27,7 @@ public class MindPrime extends Application {
         grid.setVgap(10);
         grid.setHgap(10);
         grid.setPadding(Insets.EMPTY);
-
+...
 Para crear el Stage que contendra el Form para poder hacer un Log In 
 primero: creas un object  de la clase Stage en este caso "window"
 segundo: sobreescribes la clase start y mandas como parametro un object stage
