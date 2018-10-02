@@ -84,20 +84,16 @@ Para las areas de texto se crea primero un objeto referente a la area de texto y
 
 Al final se posiciona el objeto dentro del GridPane.
 
+Como crear boton Log in?
+--------------------------------------
 
+        Button loginBtn = new Button("Log in");
+        grid.add(loginBtn,1,3);
+        loginBtn.setOnAction(e->{
+        System.out.println("Login Presionado");
+        });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Los pasos para crear un boton son muy parecidos a crear un Label() o TextField()
+solo sigues la misma metodologia de los anteriores
+1-Creas el boton con un objeto referencia
+2-Lo colocas dentro del GridPane 
