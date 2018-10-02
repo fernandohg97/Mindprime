@@ -11,5 +11,5 @@ por lo que las aplicaciones JavaFX pueden ser ejecutadas en computadores
 con la máquina virtual de Java instalada 
 
 
-INDICE:
+Bullet list:
 *Como crear un primaryStage?
